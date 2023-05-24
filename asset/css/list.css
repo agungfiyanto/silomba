@@ -1,0 +1,39 @@
+@import url('reset.css');
+
+.atas{
+    background-color: #0166FE;
+    height: 50px;
+    width: 100%;
+}
+
+.atas .container img{
+    margin-top: 10px;
+}
+
+.konten{
+    margin-top: 90px;
+}
+
+table{
+    width: 100%;
+    margin-top: 30px;
+}
+
+table th{
+    background-color: #0166FE;
+    color: white;
+    text-align: center;
+}
+
+tr th, tr td{
+    border: solid #0166FE 1.5px;
+    text-align: center;
+    padding: 0 10px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+img{
+    margin-top: -3px; 
+    padding-right: 3px;
+}

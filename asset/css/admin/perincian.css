@@ -1,0 +1,150 @@
+@import url('../../font/font.css');
+
+.konten{
+    padding: 50px;
+    justify-content: end;
+    font-family: sanspro;
+    color: #353A7C;
+}
+
+/* kotak konten */
+.kotak{
+    background-color: #566598;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.kotak2{
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+/* judul */
+.title{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* Isi */
+.isi{
+    padding-left: 35px;
+    color:black;
+}
+
+.isi table td, table td *{
+        vertical-align: top;
+}
+
+/* isi kiri(gambar pdf, tombol download) */
+.kotakpdf{
+    border: solid black;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.kotakpdf img{
+    width: 130px;
+}
+
+.btnDownload{
+    width: 80px;
+    margin-top: 20px ;
+    background-color: #566598;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btnDownload:hover{
+    width: 80px;
+    margin-top: 20px ;
+    background-color: #43507c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btnDownload a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Keterangan */
+.keterangan table{
+    margin-left: 50px;
+}
+
+
+.keterangan td{
+    padding-bottom: 6px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+/* dropdown */
+.tombol {
+    border: solid rgb(48, 78, 134);
+    padding: 0 10px;
+}
+
+.tombol:hover {
+    background-color: rgb(48, 78, 134);
+    border: solid rgb(48, 78, 134);
+    color: white;
+}
+
+/* btn */
+.tombolKanan td{
+    text-align: center;
+}
+
+.btnSimpan{
+    background-color: #3AAF54;
+    border-radius: 5px;
+    width: 70px;
+    float: right;
+}
+
+.btnSimpan:hover{
+    color: white;
+    background-color: #2e9244;
+    border-radius: 5px;
+    width: 70px;
+    float: right;
+}
+
+button.btnSimpan{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.btnKembali{
+    background-color: #566598;
+    border-radius: 5px;
+    width: auto;
+    float: right;
+    margin-right: 10px;
+}
+
+.btnKembali:hover{
+    background-color: #43507c;
+    border-radius: 5px;
+    width: auto;
+    float: right;
+    margin-right: 10px;
+}
+
+.btnKembali a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    vertical-align: middle;
+}

@@ -1,0 +1,56 @@
+@import url('../../font/font.css');
+
+html,
+body {
+    height: 100%;
+}
+
+.tata-letak {
+    display: flex;
+    height: 100%;
+}
+
+.navigation {
+    background-color: #566598;
+    height: 100%;
+    width: 300px;
+    font-family: sanspro;
+}
+
+.konten {
+    background-color: #F0F0F0;
+    height: 100%;
+    flex: 3;
+}
+
+.pilihan {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 150px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pilihan a p {
+    display: inline;
+    color: white;
+}
+
+.pilihan a {
+    background-color: #393d7c;
+    display: flex;
+    align-items: center;
+}
+
+.pilihan a:hover{
+    background-color: #0166FE;
+}
+
+.logout{
+    position: absolute;
+    bottom: 0;
+    padding: 0 0 20px 20px;
+}

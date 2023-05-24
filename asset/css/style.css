@@ -1,0 +1,371 @@
+@import url('reset.css');
+@import url('../font/font.css');
+
+/* Animasi tombol */
+header {
+    position: absolute;
+    min-width: 100%;
+    z-index: 1000;
+}
+
+.nav-right {
+    float: right;
+    margin-right: 10%;
+    margin-top: 25px;
+}
+
+.nav-right a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+.nav-right a span {
+    display: block;
+    position: absolute;
+    background: white;
+}
+
+.nav-right a span:nth-child(1) {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+.nav-right a:hover {
+    color: white;
+}
+
+.nav-right a:hover span:nth-child(1) {
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.5s;
+}
+
+.nav-right a span:nth-child(2) {
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+
+}
+
+.nav-right a:hover span:nth-child(2) {
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav-right a span:nth-child(3) {
+    right: 0;
+    bottom: 0;
+    width: 1px;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav-right a:hover span:nth-child(3) {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.5s;
+    transition-delay: 0.5s;
+}
+
+.nav-right a span:nth-child(4) {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s;
+
+}
+
+.nav-right a:hover span:nth-child(4) {
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.5s;
+}
+
+/* Tampilan menyeluruh */
+.bg-video::after {
+    content: "";
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    opacity: 30%;
+}
+
+.bg-video {
+    overflow: hidden;
+    width: 100%;
+    height: 485px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.bg-video p {
+    position: absolute;
+    z-index: 2;
+    font-size: 7vw;
+    font-family: bebas;
+    color: white;
+    letter-spacing: 30px;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    transition: 1s;
+}
+
+.pengajuan {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    color: #707070;
+}
+
+.pengajuan .kata {
+    width: 450px;
+    text-align: justify;
+    font-size: larger;
+    font-family: sanspro;
+    align-self: center;
+}
+
+.penggunaan {
+    text-align: center;
+    font-family: sanspro;
+    color: #707070;
+    margin-top: 90px;
+}
+
+.penggunaan img {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #404040;
+    height: 350px;
+    width: 100%;
+    margin-top: 100px;
+    clear: left;
+}
+
+footer .akhir {
+    color: white;
+    font-size: 15px;
+    padding-top: 30px;
+    line-height: 1.2;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.akun {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.akun a:visited {
+    color: white;
+}
+
+.akun span {
+    padding-left: 4px;
+}
+
+.bg-video p.kepanjangan{
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-top: 150px;
+}
+
+/* Tampilan Laptop */
+@media (min-width:992px) {
+    .navbar {
+        position: relative;
+        z-index: 2;
+    }
+
+    .nav-link {
+        color: white !important;
+    }
+
+    .bg-video {
+        position: relative;
+        bottom: 56px;
+    }
+
+    .bg-video p {
+        font-size: 60px;
+        letter-spacing: 40px;
+    }
+
+    .bg-video p.kepanjangan{
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+
+    .bg-video::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 30%;
+    }
+
+    .bg-video {
+        overflow: hidden;
+        width: 100%;
+        height: 675px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .pengajuan {
+        margin-top: 20px;
+    }
+
+    .penggunaan .gambar2 {
+        display: none;
+    }
+
+    .penggunaan .gambar1 {
+        height: 350px;
+        transition: 1s;
+    }
+
+    footer {
+        font-size: 20px;
+        background-color: #404040;
+        height: 300px;
+        width: 100%;
+        margin-top: 100px;
+        clear: left;
+    }
+
+    iframe {
+        width: 400px;
+        height: 250px;
+        float: right;
+        border-radius: 15px;
+        margin-top: -100px;
+    }
+
+    .akun {
+        width: 45%;
+        margin-top: 140px;
+    }
+}
+
+/* Tampilan HP sebagian */
+@media (max-width:767px) {
+    .konten img {
+        display: none;
+    }
+
+    .pengajuan .kata {
+        font-size: 15px;
+    }
+
+    .penggunaan .gambar1 {
+        display: none;
+    }
+
+    .penggunaan .gambar2 {
+        height: 500px;
+        float: left;
+        padding-bottom: 90px;
+    }
+
+    iframe {
+        margin: 15px 0 15px 0;
+    }
+
+    .nav-right {
+        font-size: 11px;
+    }
+
+    .bg-video p.kepanjangan {
+        letter-spacing: 7px;
+        margin-top: 100px;
+        margin-right: 20px;
+        font-size: 15px;
+    }
+}
+
+/* Tampilan Tablet */
+@media (max-width:991px) and (min-width:768px) {
+    .pengajuan img {
+        height: 200px;
+    }
+
+    .pengajuan .kata {
+        font-size: 15px;
+    }
+
+    .bg-video::after {
+        content: "";
+        background-color: black;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        opacity: 30%;
+    }
+
+    .bg-video {
+        overflow: hidden;
+        width: 100%;
+        height: 565px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .penggunaan .gambar1 {
+        height: 300px;
+        transition: 1s;
+    }
+
+    .penggunaan .gambar2 {
+        display: none;
+    }
+
+    .akun {
+        width: 70%;
+    }
+
+    iframe {
+        margin: 15px 0 15px 0;
+    }
+}

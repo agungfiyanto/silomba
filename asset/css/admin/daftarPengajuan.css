@@ -1,0 +1,223 @@
+.konten {
+    display: flex;
+    padding: 50px 30px 80px;
+}
+
+.kotak {
+    margin: 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.bg {
+    background-color: #566598;
+    color: white;
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 20px 0;
+    border-radius: 20px 20px 0 0;
+    z-index: 1;
+}
+
+.isi {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    top: 20px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+.satu {
+    flex: 3;
+    height: 100%;
+}
+
+/* Atur konten */
+.atas {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.atas td {
+    padding-left: 10px;
+}
+
+.atas td:nth-child(1) {
+    width: 250px;
+}
+
+.atas table{
+    margin-top: -20px;
+}
+
+.keterangan {
+    margin-top: -20px;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.keterangan img{
+    float: left;
+    padding-right: 5px;
+}
+
+.keterangan p,
+h5 {
+    margin: 0;
+}
+
+.keterangan p{
+    font-style: italic;
+}
+
+.search form {
+    display: flex;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.search input {
+    width: 220px;
+    height: 100%;
+    border-radius: 5px;
+    padding-left: 30px;
+    border-color: #566598;
+}
+
+.search input::placeholder {
+    font-style: italic;
+}
+
+.search input:focus {
+    outline: none;
+}
+
+.search span img:focus {
+    display: none;
+}
+
+.search span {
+    position: relative;
+}
+
+.search span img {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    opacity: 30%;
+}
+
+.tombol {
+    border: solid rgb(48, 78, 134);
+    padding: 0 10px;
+}
+
+.tombol:hover {
+    background-color: rgb(48, 78, 134);
+    border: solid rgb(48, 78, 134);
+    color: white;
+}
+
+
+/* Mengatur tabel */
+.tabel table {
+    margin-top: 10px;
+}
+
+.tabel {
+    padding: 0 20px;
+}
+
+.tabel th,
+.tabel td {
+    border:#566598;
+    border-style: none solid none solid;
+    text-align: center;
+    padding: 3px 7px;
+}
+
+.tabel tr:last-of-type{
+    border-bottom: solid;
+}
+
+.tabel th {
+    background-color: #566598;
+    color: white;
+}
+
+.tabel th:nth-child(2) {
+    width: 650px;
+}
+
+.tabel th:nth-child(3) {
+    width: 150px;
+    padding: 0;
+}
+
+.tabel td:nth-child(2) {
+    text-align: start;
+}
+
+.tabel .btn {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+.tabel tr:nth-child(2n) {
+    background-color: rgba(231, 230, 230, 0.774);
+}
+
+.tabel .btn{
+    background-color: #566598;
+    color: white;
+    padding: 0 7px;
+}
+
+.tabel img{
+    margin-top: -5px;
+    padding-right: 5px;
+}
+
+/* Register */
+.isi{
+    padding-top: 30px;
+}
+
+.isi label{
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.dua .isi{
+    color: #566598;
+}
+
+.dua .isi form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.dua .isi input {
+    border-radius: 20px;
+    border-color: #566598;
+    padding-left: 10px;
+
+}
+
+.dua .isi input:focus {
+    outline: none;
+}
+
+button[type=submit]{
+    background-color: #566598;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    margin-left: auto;
+}

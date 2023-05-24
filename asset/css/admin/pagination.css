@@ -1,0 +1,37 @@
+.pagination{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.pagination a.btn{
+    background-color: white;
+    border: solid #566598 1.5px;
+    border-radius: 0px;
+    width: 30px;
+}
+
+.pagination a:visited{
+    color: #2A3A71; 
+}
+
+.pagination a.aktif{
+    background-color: #2A3A71;
+    border-style: solid none;
+}
+
+.pagination a.aktif:visited{
+    color: white;
+}
+
+.pagination a:hover{
+    background-color: #546dbe;
+    color: white;
+}
+
+#atur_pagination a{
+    padding: 0;
+    margin: 0;
+}

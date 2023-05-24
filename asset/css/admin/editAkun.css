@@ -1,0 +1,72 @@
+@import url('../../font/font.css');
+
+.konten{
+    padding: 50px;
+    justify-content: end;
+    font-family: sanspro;
+    color: #353A7C;
+}
+
+/* kotak konten */
+.kotak{
+    background-color: #566598;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.kotak2{
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    
+}
+
+/* judul */
+.title{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* Isi */
+.isi{
+    width: 50%;
+    padding-left: 35px;
+}
+
+.isi label{
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.isi form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+.isi input {
+    border-radius: 20px;
+    border-style:solid;
+    border-color: solid #566598;
+    padding-left: 10px;
+
+}
+
+.isi input:focus {
+    outline: none;
+}
+
+button[type=submit]{
+    background-color: #566598;
+    color: white;
+    width: 80px;
+    padding: 5px;
+    margin-left: auto;
+}

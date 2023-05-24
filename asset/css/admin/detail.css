@@ -1,0 +1,132 @@
+@import url('../../font/font.css');
+
+.konten{
+    padding: 50px;
+    justify-content: end;
+    font-family: sanspro;
+    color: #353A7C;
+}
+
+/* kotak konten */
+.kotak{
+    background-color: #566598;
+    padding-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.kotak2{
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+/* judul */
+.title{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+/* Nama dan keterangan */
+.table1{
+    align-items: center;
+    margin-left: 40px;
+    width: 100%;
+}
+
+.table2 td{
+    padding-top: 8px;
+    font-size: 20px;
+}
+
+.table2{
+    padding: 0;
+    margin: 0;
+}
+
+.table3 td{
+    border: #353A7C;
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+
+.table3 img{
+    float: left;
+    padding-top: 8px;
+    margin: 0;
+    border:0;
+}
+
+.table3 p{
+    padding-left: 10px;
+    display: inline-block;
+    margin: 0;
+    padding-top:7px;
+}
+
+/* Mengatur tabel */
+.tabel table {
+    margin-top: 10px;
+}
+
+.tabel {
+    padding: 0 40px;
+}
+
+.tabel th,
+.tabel td {
+    border:#566598;
+    border-style: none solid none solid;
+    text-align: center;
+    padding: 3px 7px;
+}
+
+.tabel tr:last-of-type{
+    border-bottom: solid;
+}
+
+.tabel th {
+    background-color: #566598;
+    color: white;
+}
+
+.tabel th:nth-child(2) {
+    width: 650px;
+}
+
+.tabel th:nth-child(3) {
+    width: 150px;
+    padding: 0;
+}
+
+.tabel td:nth-child(2) {
+    text-align: start;
+}
+
+.tabel .btn {
+    padding: 0 5px;
+    margin: 0 5px;
+}
+
+.tabel tr:nth-child(2n) {
+    background-color: rgba(231, 230, 230, 0.774);
+}
+
+.tabel .btn{
+    background-color: #566598;
+    color: white;
+    padding: 0 7px;
+}
+
+.tabel img{
+    margin-top: -5px;
+    padding-right: 5px;
+}
+

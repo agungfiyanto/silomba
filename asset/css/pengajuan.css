@@ -1,0 +1,108 @@
+@import url('reset.css');
+
+nav img{
+    margin-top: 15px;
+    float: right;
+    height: 25px;
+}
+
+.clear{
+    clear: right;
+}
+
+.konten p{
+    font-size: 15px;
+    margin-top: 40px;
+    transition: 1s;
+}
+
+label[for=file]{
+    margin-top: 30px;
+}
+
+input[type=text]{
+    border-radius: 7px;
+    padding: 2px 7px;
+    width: 20rem;
+    outline: none;
+}
+
+button[type=submit]{
+    margin-top: 120px;
+}
+
+form{
+    position: relative;
+}
+
+.gambar{
+    width: 65%;
+    height: 240px;
+    position: relative;
+    z-index: -2;
+}
+
+.gambar img{
+    bottom: 50px;
+}
+
+div.drag-drop .file_upload{
+    margin-left: -10px;
+}
+
+
+/* Tampilan laptop dan tablet */
+@media (min-width:768px) {
+    nav img{
+        height: 30px;
+    }
+
+    .konten p{
+        font-size: 25px;
+    }
+
+    input[type=text]{
+        border-radius: 7px;
+        padding: 3px 10px;
+        width: 50%;
+    }
+
+    .konten img{
+        height: 300px;
+        position: absolute;
+        right: 0px;
+        z-index: -1;
+        transition: 1s;
+    }
+}
+
+@media (max-width:767px) {
+    .konten img{
+        height: 150px;
+        position: absolute;
+        right: 0px;
+        bottom: 80px;
+    }
+
+    .gambar{
+        width: 100%;
+    }
+
+    button[type=submit]{
+        margin-top: 200px;
+    }
+
+}
+
+@media (min-width:760px) and (max-width:995px) {
+    .konten img{
+        height: 250px;
+        bottom: 70px;
+        transition: 1s;
+    }
+
+    .gambar{
+        width: 80%;
+    }
+}
+

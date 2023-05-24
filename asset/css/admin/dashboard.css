@@ -1,0 +1,88 @@
+@import url('../../font/font.css');
+
+.konten{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) 3fr;
+    grid-template-areas: 
+    'pengajuan pengajuan kominfo'
+    'admin user kominfo';
+    gap: 30px;
+    padding: 50px;
+    justify-content: end;
+    font-family: sanspro;
+    color: #353A7C;
+}
+
+.konten h3{
+    font-weight: bold;
+}
+
+.pengajuan{
+    grid-area: pengajuan;
+}
+
+.admin{
+    grid-area: admin;
+}
+
+.user{
+    grid-area: user;
+}
+
+.kominfo{
+    grid-area: kominfo;
+    font-family: firaBold;
+    text-align: center;
+}
+
+.kotak{
+    background-color: rgb(248, 248, 248);
+    padding: 10px 10px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+table{
+    margin-left: 30px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+.kotak-1 td{
+    height: 40px;
+    padding-left: 10px;
+}
+
+.kotak-1 td:nth-child(2){
+    padding-right: 50px;
+}
+
+.kotak-2{
+    text-align: center;
+    width: 225px;
+    padding-bottom: 40px;
+}
+
+/* Notifikasi*/
+.belum{
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #9F9D9D;
+}
+
+.terima{
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #53FC85;
+}
+
+.tolak{
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #FC5353;
+}

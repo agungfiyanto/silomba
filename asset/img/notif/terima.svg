@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg width="20px" height="20px" viewBox="0 0 1080 1080" version="1.1" id="svg5"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)" sodipodi:docname="tolak.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview7" pagecolor="#505050" bordercolor="#eeeeee" borderopacity="1"
+      inkscape:pageshadow="0" inkscape:pageopacity="0" inkscape:pagecheckerboard="0" inkscape:document-units="mm"
+      showgrid="false" width="1080mm" inkscape:zoom="0.672594" inkscape:cx="140.50081" inkscape:cy="342.70303"
+      inkscape:window-width="1920" inkscape:window-height="986" inkscape:window-x="-11" inkscape:window-y="-11"
+      inkscape:window-maximized="1" inkscape:current-layer="g887" />
+   <defs id="defs2" />
+   <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+      <g id="g1058">
+         <g id="g887">
+            <g id="g975" transform="matrix(1.2772877,0,0,1.2772877,-119.27644,-135.17504)">
+               <ellipse
+                  style="fill:none;stroke:#000000;stroke-width:50;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;stop-color:#000000"
+                  id="path31" cx="519.2583" cy="530.27283" rx="381.021" ry="381.0213" />
+               <circle
+                  style="stroke:none;stroke-width:2.79141;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers stroke fill;stop-color:#000000"
+                  id="circle928" cx="519.2583" cy="530.27283" r="252.99606" fill="#28f50d" />
+            </g>
+         </g>
+      </g>
+   </g>
+</svg>
