@@ -2,4 +2,4 @@
 user & password
 user : user
 admin : admin
-konrkdi database ada di controller/config.php
+koneksi database ada di controller/config.php
