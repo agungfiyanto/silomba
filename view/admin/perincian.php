@@ -15,7 +15,7 @@ if (isset($_GET['notif'])) {
     $notif = $_GET['notif'];
     $query = "UPDATE aplikasi SET notif = '$notif' WHERE id_aplikasi = $id";
     $perubahan = mysqli_query(dbKoneksi(), $query);
-    header("Refresh:0");
+    header("refresh: 1, url = ../admin/daftarPengajuan.php");
     exit;
 }
 
@@ -23,13 +23,11 @@ if (isset($_POST['simpanPesan'])) {
     $pesan = $_POST['pesan'];
     $query = "UPDATE aplikasi SET pesan = '$pesan' WHERE id_aplikasi = $id";
     mysqli_query(dbKoneksi(), $query);
-    if (mysqli_affected_rows(dbKoneksi())) {
-        echo "<script>
+    echo "<script>
                 alert('data berhasil di simpan');
             </script>";
-        header("Refresh:0");
-        exit;
-    }
+    header("refresh: 1, url = ../admin/daftarPengajuan.php");
+    exit;
 }
 ?>
 

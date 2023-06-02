@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 01 Sep 2021 pada 10.58
--- Versi server: 10.4.19-MariaDB
--- Versi PHP: 8.0.7
+-- Waktu pembuatan: 02 Jun 2023 pada 17.39
+-- Versi server: 10.4.24-MariaDB
+-- Versi PHP: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `kominfo`
+-- Database: `silomba`
 --
 
 -- --------------------------------------------------------
@@ -58,7 +58,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id_user`, `username`, `email`, `password`, `level`) VALUES
 (22, 'admin', 'admin@gmail.com', '21232f297a57a5a743894a0e4a801fc3', 1),
-(23, 'user', 'user@gmail.com', 'ee11cbb19052e40b07aac0ca060c23ee', 2);
+(32, 'user', 'user@gmail.com', 'ee11cbb19052e40b07aac0ca060c23ee', 2);
 
 --
 -- Indexes for dumped tables
@@ -85,13 +85,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT untuk tabel `aplikasi`
 --
 ALTER TABLE `aplikasi`
-  MODIFY `id_aplikasi` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `id_aplikasi` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=47;
 
 --
 -- AUTO_INCREMENT untuk tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id_user` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id_user` int(100) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)

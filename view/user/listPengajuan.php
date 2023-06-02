@@ -31,7 +31,7 @@ require_once "../../controller/listPengajuan/menampilkanPengajuan.php";
         <div class="container" style="padding-bottom: 50px;">
             <table>
                 <tr>
-                    <th>Nama Aplikasi</th>
+                    <th>Judul Proposal</th>
                     <th>Tanggal Dibuat</th>
                     <th>Aksi</th>
                 </tr>

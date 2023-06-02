@@ -32,9 +32,8 @@
                 f. Teknologi yang digunakan berupa bahasa pemrograman, platform, dan infrastruktur TIK<br><br>
 
                 Detail File yang dikirimkan:<br>
-                a. File dikirimkan dalam bentuk RAR<br>
-                b. RAR berisikan PDF dan juga WORD yang dibutuhkan<br>
-                c. Harap menghindari penamaan RAR menggunakan titik(.)<br>
+                a. File dikirimkan dalam bentuk pdf<br>
+                b. Harap menghindari penamaan pdf menggunakan titik(.)<br>
             </p>
         </form>
     </div>
